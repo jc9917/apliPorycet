@@ -1,0 +1,16 @@
+2022-12-12 09:30:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "TABLE_CLIENTE" no encontrada
+Table "TABLE_CLIENTE" not found; SQL statement:
+SELECT MAX(idCliente) FROM table_cliente; [42102-189]
+2022-12-12 09:30:38 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "TABLE_VENTAS" no encontrada
+Table "TABLE_VENTAS" not found; SQL statement:
+SELECT MAX(idVentas) FROM table_ventas; [42102-189]
+2022-12-12 09:30:38 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "TABLE_FACTURAS" no encontrada
+Table "TABLE_FACTURAS" not found; SQL statement:
+SELECT MAX(No_Facturas) FROM table_facturas; [42102-189]
+2022-12-12 09:30:39 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "TABLE_CLIENTE" no encontrada
+Table "TABLE_CLIENTE" not found; SQL statement:
+SELECT * FROM table_Cliente ORDER BY Nombre_Cliente ASC [42102-189]
